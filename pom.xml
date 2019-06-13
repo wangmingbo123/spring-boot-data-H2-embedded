@@ -66,6 +66,20 @@
 			<id>myMavenRepo.read</id>
 			<url>https://mymavenrepo.com/repo/lk6t6I3Mtx9Cgkkby3wb/</url>
 		</repository>
+
+		<repository>
+			<id>maven-aliyun</id>
+			<url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+				<updatePolicy>always</updatePolicy>
+				<checksumPolicy>fail</checksumPolicy>
+			</snapshots>
+		</repository>
+
 	</repositories>
 
 	<distributionManagement>
